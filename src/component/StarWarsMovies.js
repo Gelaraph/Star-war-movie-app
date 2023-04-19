@@ -3,16 +3,27 @@ import "./starWarsMovies.css";
 
 function StarWarsMovies() {
   const [movies, setMovies] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     async function fetchMovies() {
       const response = await fetch("https://swapi.dev/api/films");
       const data = await response.json();
       setMovies(data.results);
+      setIsLoading(false);
     }
 
     fetchMovies();
   }, []);
+
+  if (isLoading) {
+    return (
+      <div className="loader-container">
+        <div className="loader"></div>
+        <p className="loading-text">Loading...</p>
+      </div>
+    );
+  }
 
   return (
     <div className="container">
