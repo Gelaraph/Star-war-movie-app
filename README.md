@@ -25,3 +25,5 @@ https://swapi.dev/api/films
 ## What to submit in Citrone
   - Submit the PR link
   - Host your work on Netlify/Github Pages and submit the hosted link
+
+### Deployed at: https://adorable-bunny-b23f80.netlify.app/
