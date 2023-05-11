@@ -1,0 +1,71 @@
+.details {
+  display: flex;
+  flex-direction: column;
+  background-color: #232323;
+  color: rgb(255, 255, 255);
+  padding: 30px;
+  margin-inline: 40px;
+  border-radius: 5px;
+}
+
+.details header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+}
+
+.details h2 {
+  font-family: "Star Jedi", "Open Sans", sans-serif;
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 2px;
+}
+
+/* .details h2 {
+    font-family: inherit;
+    font-size: 1.8rem;
+    color: rgb(157, 157, 157);
+    margin-bottom: 1.5rem;
+    letter-spacing: 2px;
+  } */
+
+.details .back {
+  align-self: flex-start;
+}
+
+.details button {
+  background-color: transparent;
+  border: none;
+  background-color: #232323;
+  color: #9d9d9d;
+  font-size: 1rem;
+}
+.details p {
+  margin: 0.2rem 0;
+  font-size: 16px;
+  font-size: 200;
+}
+
+.gray {
+  color: #9d9d9d;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.characters {
+  border-bottom: 2px solid #3c3c3c;
+  margin-bottom: 1rem;
+}
+
+.details ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 1.1rem;
+}
+
+.details li {
+  width: 30%;
+}

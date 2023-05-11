@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./App.css";
 import StarWarsMovies from "./component/StarWarsMovies";
 import { Route, Routes } from "react-router-dom";
